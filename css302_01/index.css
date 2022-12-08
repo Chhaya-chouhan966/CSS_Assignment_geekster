@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./beans.jpg);
+    overflow: hidden;
+
+}
+.container{
+    height: 99%;
+    width: 40%;
+    /* border: 2px solid red; */
+    background-color:wheat
+    
+}
+.header{
+    width: 100%;
+    height: 15%;
+    /* border:  2px solid green; */
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    
+    
+
+}
+.border{
+    padding-top: 10px;
+    border-bottom:  5px solid brown;
+    width: 90%;
+    margin: 8px;
+}
+.menu{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    /* padding: 2rem; */
+    padding-left:2rem ;
+    padding-right: 2rem;
+    flex-direction: column;
+    
+}
+.menuTop{
+   height: 50%;
+   width: 100%; 
+   /* border: 2px solid black; */
+   display: flex;
+   
+}
+.menuTopLeft{
+    height: 100%;
+    width: 35%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+    font-size: 20px;
+
+}
+ul{
+   list-style: none; 
+}
+.middle{
+    height:100% ;   
+    width: 30%;
+    /* border: 2px solid red; */
+   }
+.menuTopRight{
+    height: 100%;
+    width: 35%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 6rem;
+    font-size: 20px;
+    justify-content: right;
+}
+
+.menuBottom{
+    height: 50%;
+    width: 100%; 
+    /* border: 2px solid red; */
+    display: flex;
+}
+.menuBottomLeft{
+width: 35%;
+height: 100%;
+/* border: 2px solid greenyellow; */
+padding-top: 6rem;
+font-size: 20px;
+
+}
+.menuBottomMiddle{
+width: 30%;
+height: 100%;
+/* border: 2px solid blueviolet; */
+}
+.menuBottomRight{
+   width: 35%;
+   height: 100%;
+   /* border: 2px solid goldenrod; */
+   font-size: 20px;
+   padding-top: 6rem;
+   display: flex;
+   justify-content: right;
+}
+
+
+.footer{
+    width: 100%;
+    height: 15%;
+    /* background: yellow; */
+}
+.bottomBorder{
+    border-top:  5px solid brown;
+    width: 90%;
+}
+p{
+    padding-top: 1rem;
+}
+
+center{
+    color: dark chocolate;
+    padding-top: 2rem;
+}
