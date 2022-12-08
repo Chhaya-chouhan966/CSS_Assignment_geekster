@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+
+
+.parent{
+    width: 40%;
+    height: 90%;
+    /* border: 2px solid black; */
+}
+p{
+    font-size: 15px;
+}
