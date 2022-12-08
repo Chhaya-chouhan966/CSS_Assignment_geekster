@@ -1,1 +1,1 @@
-host link-https://chhaya-chouhan966.github.io/css_Assignment/css302_01/
+host link-https://chhaya-chouhan966.github.io/CSS_Assignment_geekster/css302_01/
