@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.parent{
+    height: 60%;
+    width: 65%;
+    border-bottom: 18px solid white;
+    border-top: 10px solid white;
+    border-left: 16px solid white;
+    border-right: 13px solid white;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divs{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.div1{
+    background-color: rgb(197, 133, 16);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px ; 
+}
+.pr{
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+    margin-left :3rem;
+    margin-top: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+h1{
+    color: white;
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+}
+.para{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: rgba(255, 255, 255, 0.6)
+}
+button{
+    width: 40%;
+    height: 13%;
+    border-radius: 40%;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    
+}
+.div2{
+background-color:  rgb(18, 126, 169);
+}
+.div3{
+    background-color:  rgba(0, 128, 83, 0.758);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#id1{
+    color: rgb(197, 133, 16);
+    border: 2px solid rgb(197, 133, 16);
+}
+#id2{
+    color:  rgb(18, 126, 169);
+    border: 2px solid  rgb(18, 126, 169);
+}
+#id3{
+    color:  rgba(0, 128, 83, 0.758);
+    border: 2px solid  rgba(0, 128, 83, 0.758);
+}
