@@ -4,80 +4,162 @@
     box-sizing: border-box;
 }
 body{
-    height:80vh;
+    height:100vh;
     width:100vw; 
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 2px solid red; */
 }
-.wrapper{
-    width:50%;
-    height:90%;
-    border: 2px solid red;
+.parent{
+    height: 90%;
+    width: 60%;
+    /* border: 2px solid black; */
     display: flex;
+     
 }
-.left{
-    width:40%;
+
+.divLeft{
     height: 100%;
-    border:2px solid green;
+    width: 35%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
 }
-.logo{
-    width:95%;
-    height:30%;
-    border:2px solid rgb(122, 120, 5);
+.divLeftTop{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* padding-top: 30px; */
+}
+img{
+    height: 120px;
+    width: 120px;
+    border-radius: 60%;
 }
 
-.menu{
-    width:95%;
-    height:40%;
-    border:2px solid rgb(122, 120, 5); 
+.divLeftBottom{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+h2{
+    color:  navy;
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
-.twitch{
-    background-color: aqua;
+.divRight{
+    height: 100%;
+    width: 65%;
+    /* border: 2px solid red; */
+    background-color: rgb(217, 243, 254);
+}
+.divRightTop{
+    height: 30%;
     width: 100%;
-    height: 25%;
+    /* border: 2px solid blue; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 25px;
+    padding-left: 10%;
 }
-.freegames{
-    width:95%;
-    height:30%;
-    border:2px solid rgb(122, 120, 5);
-    border-radius: 5px;
+button{
+    height: 28px;
+    width: 290px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+}
+.divRightBottom{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid blue;   */
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0px;
 }
-.freegames h4{
-    width: 40%;
-    text-align: left;
+.div1{
+    height: 23%;
+    width: 80%;
+    background-color: aliceblue;
+    /* border :2px solid black; */
+    border-radius: 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;   
 }
-
-.right{
-    width:60%;
-    height:100%;
-    border:2px solid rgb(5, 13, 122);
+.diva{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-items: center;
+    align-items: center;  
+    padding-left: 5%; 
 }
-.activegames{
-    width:95%;
-    height:40%;
-    border:2px solid rgb(5, 122, 21); 
+.divb{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 3%;
 }
-.border_games{
-    padding: 5px;
-    width:75%;
-    border:5px solid black;
-    background-color: black;
-    border-radius: 25px;
+.bt{
+    height: 25px;
+    width: 250px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    background-color: skyblue;
 }
-.allgames{
-    width:95%;
-    height:60%;
-    border:2px solid rgb(8, 22, 10); 
+p{
+    color: navy;
+}
+.divc{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid red; */
+    padding-top: 3%;
+    padding-left: 7%;
+}
+.div2{
+    height: 23%;
+    width: 80%;
+    background-color: aliceblue;
+    /* border :2px solid black; */
+    border-radius: 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;   
+}
+.div3{
+    height: 23%;
+    width: 80%;
+    background-color: aliceblue;
+    /* border :2px solid black; */
+    border-radius: 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;   
+}
+.mg{
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
 }
