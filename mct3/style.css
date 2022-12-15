@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 .parent {
     display: flex;
     flex-wrap: wrap;
@@ -105,8 +104,6 @@
 }
 .containerOneBottomMiddle img{
  position: absolute;
- height:550px;
- width:550px;
  top: 300px;
 }
 .containerOneBottomRight{
