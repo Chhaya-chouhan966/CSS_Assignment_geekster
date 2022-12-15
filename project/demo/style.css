@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 section {
-    width: 100%;
+    width: 100vw;
     border: 2px solid red;
 }
 
