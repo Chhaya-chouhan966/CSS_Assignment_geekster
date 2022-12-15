@@ -32,7 +32,7 @@ section {
     justify-content: space-evenly;
 }
 .menu{
-    font-size: 24px;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items:center ;
