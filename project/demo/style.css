@@ -20,6 +20,8 @@ section {
     height: 10vh;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
     
 }
 .section1Navbar{

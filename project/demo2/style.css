@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outerDiv{
+    height: 100vh;
+    width: 100vw;
+    border: 5px solid red;
+}
+.navBar{
+    height: 10%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.navBarLeft{
+    height: 100%;
+    width: 12%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navBarLeft img{
+    height: 150%;
+}
+.navBarLeft i{
+    font-size: 24px; 
+    padding-left: 25px;
+}
+.navBarMiddle{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid greenyellow; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.navBarMiddle input{
+    border: 1px solid #d3d3d3;
+    outline: none;
+    height: 62%;
+    width: 70%;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 24px;
+    align-items: center;
+    font-size: 18px;
+}
+.navBarMiddleSearch{
+    height: 62%;
+    width: 9%;
+    border: 1px solid #d3d3d3;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f8f8f8;    
+}
+.navBarMiddleMicro{
+    height: 62%;
+    width: 8%;
+    /* border: 1px solid #d3d3d3; */
+     justify-content: center;
+    align-items: center;
+    display: flex;
+} 
+.navBarMiddleMicro i{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.navBarRight{
+    height: 100%;
+    width: 12%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navBarRight img{
+    height: 60%;
+    width: 15%;
+}
+.navBarRight i{
+    font-size: 22px;
+}
+#profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.menu{
+    height: 90%;
+    width: 100%;
+    border: 2px solid blue;
+    display: flex;
+}
+.menuLeft{
+    height: 100%;
+    width: 20%;
+    border: 2px solid green;
+}
+.menuRight{
+    height: 100%;
+    width: 80%;
+    border: 2px solid blueviolet;
+}
+.menuRightTop{
+    height: 10%;
+    width: 100%;
+    border: 2px solid red;
+}
+.menuRightBottom{
+    height: 90%;
+    width: 100%;
+    border: 2px solid black;
+}
