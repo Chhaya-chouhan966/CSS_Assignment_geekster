@@ -9,6 +9,9 @@
     border: 5px solid red;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+*::-webkit-scrollbar{
+    display: none;
+}
 .navBar{
     height: 10%;
     width: 100%;
@@ -109,12 +112,12 @@
 .menuLeft{
     height: 100%;
     width: 15%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     overflow-y: scroll;
     font-size: 1.1rem;
     font-weight: 500;
     color: rgba(90, 90, 90, 1);
-    sc
+    
 }
 .menuLeftHome{
     height: 25%;
@@ -227,12 +230,27 @@
     height: 100%;
     width: 85%;
     border: 2px solid blueviolet;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgba(90, 90, 90, 1);
 }
 .menuRightTop{
     height: 10%;
     width: 100%;
     border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
 }
+.menuRightTop p{
+    width: fit-content;
+    height: fit-content;
+    background-color: #f8f8f8;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+}
+
 .menuRightBottom{
     height: 90%;
     width: 100%;
