@@ -130,7 +130,7 @@
 }
 .menuLeftHome ul{
     list-style: none;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
     /* border: 2px solid red; */
    
     
@@ -144,7 +144,7 @@
 .menuLeftHome ul li:hover{
     cursor: pointer;
     background-color: #f8f8f8;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .hii{
     width: 15%;
