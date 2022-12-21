@@ -6,12 +6,14 @@
 .parent {
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
     /* flex-direction: column; */
 }
 
 .containerOne {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
@@ -25,6 +27,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    /* top: 0; */
+    z-index: 3;
+    background-color: white;
 
 }
 
@@ -141,8 +147,8 @@ padding-right: 25%;
 }
 
 .containerTwo {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     /* border: 5px solid black; */
     position: relative;
 }
@@ -193,8 +199,8 @@ padding-right: 25%;
 }
 
 .containerThree{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     /* border: 5px solid blue; */
     position: relative;
 }
@@ -246,8 +252,8 @@ padding-right: 25%;
       font-size: 20px;
 }
 .containerFour {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     /* border: 5px solid rgb(241, 76, 76); */
     position: relative;
 }
@@ -341,8 +347,8 @@ padding-right: 25%;
     font-size: 20px;
 }
 .containerFive{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     /* border: 5px solid blue; */
     position: relative;
 }
@@ -436,8 +442,8 @@ padding-right: 25%;
     
 }
 .containerSix{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     /* border: 5px solid red; */
     position: relative;
 }
@@ -492,8 +498,8 @@ padding-right: 25%;
     color:#5A5A5A;
 }
 .containerSeven{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     /* border: 5px solid blue; */
     position: relative;
 }
@@ -555,8 +561,8 @@ padding-right: 25%;
     left: 50px;
 }
 .containerEight{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     /* border: 5px solid red; */
     position: relative;
 }
