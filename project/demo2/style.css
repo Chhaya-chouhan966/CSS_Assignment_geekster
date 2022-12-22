@@ -33,7 +33,7 @@
 }
 .navBarLeft i{
     font-size: 18px; 
-    padding-left: 25px;
+    padding-left: 1.8rem;
 }
 .navBarMiddle{
     height: 100%;
@@ -125,7 +125,7 @@
     height: 25%;
     width: 100%;
     /* border: 2px solid black; */
-    padding: 0.5rem 0px;
+    padding: 1rem 0px;
     
 }
 .menuLeftHome ul{
@@ -299,3 +299,32 @@
 .ThreeDotContainer i{
     margin: 1rem 0px;
 }
+.VedioContainer iframe{
+    height: 60%;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    
+    .VedioContainer {
+        width: 20%;
+     }
+}
+@media only screen and (max-width:768px) {
+    
+    .VedioContainer {
+       width: 50%;
+} 
+} 
+@media only screen and (max-width:500px) {
+
+    .VedioContainer{
+       width: 100%;
+     } 
+   .menuLeft {
+    display: none;
+    }
+
+} 
